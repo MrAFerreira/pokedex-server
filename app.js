@@ -11,6 +11,8 @@ const express = require('express');
 
 const app = express();
 
+//Comment for dev
+
 // ℹ️ This function is getting exported from the config folder. It runs most pieces of middleware
 require('./config')(app);
 const { isAuthenticated } = require('./middleware/jwt.middleware');
